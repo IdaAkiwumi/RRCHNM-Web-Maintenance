@@ -118,8 +118,7 @@ a {
     content: "";
     background-size: 1200px auto;
     background-repeat: no-repeat;
-    background-position: center;
-    max-height: 100px;
+    background-position: center bottom; 
     position: absolute;
     top: 0;
     bottom: 0;
