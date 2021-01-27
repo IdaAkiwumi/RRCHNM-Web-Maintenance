@@ -106,7 +106,7 @@ a {
     padding-right: 1.5em;
    /* padding-bottom: 1.5em;*/
     padding-left: 1.5em;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+ 
 }
 
 
@@ -114,6 +114,7 @@ a {
 #intro:before {
     background-image: url(https://rrchnm.org/wordpress/wp-content/uploads/2016/03/roy-bg-1-1024x236.png);
     opacity: .25;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
  #intro {
