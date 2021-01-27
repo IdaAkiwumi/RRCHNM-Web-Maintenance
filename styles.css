@@ -116,7 +116,7 @@ a {
   }
 #intro:before {
     content: "";
-    background-size: contain;
+    background-size: 1000px auto;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
