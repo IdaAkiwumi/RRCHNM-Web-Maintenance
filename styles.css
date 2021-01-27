@@ -90,7 +90,7 @@ a {
     text-decoration: none;
 }
 
-/* Roy image */
+/* Main content */
 #content, .container {
     max-width: 800px;
     max-height: 7000px;
@@ -103,7 +103,7 @@ a {
     padding-bottom: 1.5em;
     padding-left: 1.5em;
 }
-
+/* Roy image */
 #intro:before {
     background-image: url(https://rrchnm.org/wordpress/wp-content/uploads/2016/03/roy-bg-1-1024x236.png);
 }
@@ -116,7 +116,7 @@ a {
   }
 #intro:before {
     content: "";
-    background-size: 1000px auto;
+    background-size: 1200px auto;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
