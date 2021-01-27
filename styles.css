@@ -121,8 +121,8 @@ a {
     text-shadow: 0 0 20px #fff;
     position: absolute;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    left:100px;
-    right:100px;
+    left:300px;
+    right:300px;
   }
 #intro:before {
     content: "";
