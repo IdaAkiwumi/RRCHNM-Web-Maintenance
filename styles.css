@@ -1,0 +1,157 @@
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    }
+
+
+/*Header styling*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+/* Logo styling*/
+.logo {
+    height: 2.25em;
+    width: calc(100% - 6em);
+    background: url("images/hashtag-logo.png") no-repeat;
+    background-size: contain;
+    background-position: left;
+  }
+
+   .small .logo {
+    height: 1.5em;
+  }
+
+  .logo a {
+    height: 100%;
+    width: 100%;
+    text-indent: -9999px;
+    text-align: left;
+    display: block;
+  }
+
+
+
+
+a {
+    background-color: transparent;
+}
+* {
+    box-sizing: border-box;
+}
+
+/*h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0 0 0 -0.1875em;
+    color: #3673A2;
+    background-color: #fff;
+    padding: 0.1875em;
+    padding-top: 0.1875em;
+    padding-right: 0.1875em;
+    padding-bottom: 0.1875em;
+    padding-left: 0.1875em;
+    display: inline-block;
+    text-shadow: none;
+}*/
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    color: #3774a2;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656565;
+}
+
+a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b4253d;
+    text-decoration: none;
+}
+
+/* Roy image */
+
+
+#content, .container {
+    max-width: 1280px;
+    max-height: 3000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+}
+
+#intro:before {
+    background-image: url(https://rrchnm.org/wordpress/wp-content/uploads/2016/03/roy-bg-1-1024x236.png);
+    background-position: top;
+}
+
+ #intro {
+    padding: 1.5em 0;
+    text-shadow: 0 0 20px #fff;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+#intro:before {
+    content: "";
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: .25;
+    background-color: #000;
+  }
+
+#intro .container > * {
+    position: relative;
+    z-index: 1;
+  }
+
+#content:after, .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+/* Content styling*/
+/*
+p, ul {
+    margin: 1.5em 0;
+}
+* {
+    box-sizing: border-box;
+}
+*/
+
