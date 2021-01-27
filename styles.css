@@ -39,7 +39,6 @@ header {
   .logo a {
     height: 100%;
     width: 100%;
-    text-indent: -9999px;
     text-align: left;
     display: block;
   }
