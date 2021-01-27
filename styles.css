@@ -144,7 +144,6 @@ a {
 
 #content:after, .container:after {
     content: " ";
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
     display: block;
     clear: both;
 }
