@@ -106,17 +106,6 @@ a {
 
 #intro:before {
     background-image: url(https://rrchnm.org/wordpress/wp-content/uploads/2016/03/roy-bg-1-1024x236.png);
-    background-position: center;
-    max-width: 800px;
-    max-height: 7000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    padding: 1.5em;
-    padding-top: 1.5em;
-    padding-right: 1.5em;
-    padding-bottom: 1.5em;
-    padding-left: 1.5em;
 }
 
  #intro {
@@ -127,8 +116,9 @@ a {
   }
 #intro:before {
     content: "";
-    background-size: cover;
-    background-position: top center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
     top: 0;
     bottom: 0;
