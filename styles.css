@@ -120,7 +120,6 @@ a {
     padding: 1.5em 0;
     text-shadow: 0 0 20px #fff;
     position: absolute;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     left:300px;
     right:300px;
@@ -145,6 +144,7 @@ a {
 
 #content:after, .container:after {
     content: " ";
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
     display: block;
     clear: both;
 }
