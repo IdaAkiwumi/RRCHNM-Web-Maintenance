@@ -126,7 +126,6 @@ a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     left:300px;
     right:300px;
-    max-height: 600px;
   }
 #intro:before {
     content: "";
