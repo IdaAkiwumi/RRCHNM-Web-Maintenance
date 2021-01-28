@@ -161,6 +161,7 @@ p {
     font-size: 16px;
     line-height: 24px;
     color: #656565;
+    min-width: 500px;
 }
 /* Keeps text within box in tact*/
 * {
