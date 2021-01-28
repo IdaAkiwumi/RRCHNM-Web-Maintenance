@@ -97,7 +97,7 @@ a {
 /* Main content */
 #content, .container {
     max-width: 1200px;
-    max-height: 7000px;
+    max-height: 300px;
     min-height: 100px;
     margin-left: auto;
     margin-right: auto;
