@@ -56,6 +56,12 @@ a {
 }
 
 
+body {
+    position: relative;
+    padding-top: 0;
+}
+
+
 h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
