@@ -115,7 +115,7 @@ div {
     position: absolute;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     left:10em;
-    right:300px;
+    right:10em;
   }
 #intro:before {
     content: "";
