@@ -97,7 +97,7 @@ a {
 /* Main content */
 #content, .container {
     max-width: 1200px;
-    max-height: 800px;
+    max-height: 600px;
     min-height: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -116,7 +116,7 @@ a {
     background-image: url(https://rrchnm.org/wordpress/wp-content/uploads/2016/03/roy-bg-1-1024x236.png);
     opacity: .25;
     min-width: 500px;
-    max-height: 800px;
+   
 }
 
  #intro {
@@ -126,6 +126,7 @@ a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     left:300px;
     right:300px;
+    max-height: 600px;
   }
 #intro:before {
     content: "";
@@ -137,7 +138,6 @@ a {
     bottom: 0;
     right: 0;
     left: 0;
-   
   }
 
 #intro .container > * {
