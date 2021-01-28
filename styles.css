@@ -90,6 +90,10 @@ a {
  
 }
 
+div {
+    display: block;
+}
+
 
 /* Roy image */
 #intro:before {
