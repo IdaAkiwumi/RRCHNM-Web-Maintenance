@@ -95,7 +95,7 @@ a {
 
 /* Main content */
 #content, .container {
-    max-width: 500px;
+    max-width: 1280px;
     max-height: 600px;
     min-height: 100px;
     margin-left: auto;
@@ -104,7 +104,7 @@ a {
     padding: 1.5em;
     padding-top: 1.5em;
     padding-right: 1.5em;
-   /* padding-bottom: 1.5em;*/
+    padding-bottom: 1.5em;
     padding-left: 1.5em;
  
 }
