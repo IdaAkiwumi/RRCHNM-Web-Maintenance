@@ -128,7 +128,7 @@ a {
     content: "";
     background-size: 1200px auto;
     background-repeat: no-repeat;
-    background-position: center right; 
+    background-position: right; 
     position: absolute;
     top: 0;
     bottom: 0;
