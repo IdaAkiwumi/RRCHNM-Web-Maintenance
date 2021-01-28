@@ -133,7 +133,7 @@ a {
   }
 #intro:before {
     content: "";
-    background-size: cover;
+    background-size: 1200px auto;
     background-repeat: no-repeat;
     background-position: bottom right; 
     position: absolute;
