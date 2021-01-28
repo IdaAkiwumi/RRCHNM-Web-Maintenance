@@ -114,7 +114,7 @@ div {
     text-shadow: 0 0 20px #fff;
     position: absolute;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    left:50em;
+    left:150em;
     right:300px;
   }
 #intro:before {
