@@ -98,7 +98,7 @@ a {
 #content, .container {
     max-width: 1200px;
     max-height: 7000px;
-    min-width: 500px;
+    min-height: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
