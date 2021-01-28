@@ -63,7 +63,6 @@ h1 {
     line-height: 48px;
     color: #3774a2;
     min-width: 500px;
-    position: relative;
 }
 
 
@@ -117,7 +116,7 @@ div {
     background-size: 1200px auto;
     background-repeat: no-repeat;
     background-position: bottom right; 
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     right: 0;
@@ -141,7 +140,6 @@ div {
 p, ul {
     margin: 1.5em 0;
     min-width: 20em;
-    position: relative;
 }
 
 p {
