@@ -98,7 +98,7 @@ a {
 #content, .container {
     max-width: 1200px;
     max-height: 7000px;
-    min-width: 600px;
+    min-width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
@@ -115,6 +115,7 @@ a {
 #intro:before {
     background-image: url(https://rrchnm.org/wordpress/wp-content/uploads/2016/03/roy-bg-1-1024x236.png);
     opacity: .25;
+    min-width: 500px;
 }
 
  #intro {
