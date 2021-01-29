@@ -123,7 +123,9 @@ div {
     content: "";
     background-size: 1200px auto;
     background-repeat: no-repeat;
-    background-position: bottom right; 
+    /*background-position: bottom right;*/ 
+    background-position-x: initial;
+    background-position-y: initial;
     position: absolute;
     top: 0;
     bottom: 0;
