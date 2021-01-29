@@ -68,7 +68,7 @@ h1 {
     font-size: 32px;
     line-height: 48px;
     color: #3774a2;
-    min-width: 30%;
+    min-width: 50%;
 }
 
 
@@ -105,7 +105,7 @@ div {
 #intro:before {
     background-image: url(https://rrchnm.org/wordpress/wp-content/uploads/2016/03/roy-bg-1-1024x236.png);
     opacity: .25;
-    min-width: 60%;
+    min-width: 80%;
   
 }
 
@@ -147,7 +147,7 @@ div {
 
 p, ul {
     margin: 1.5em 0;
-    min-width: 30%;
+    min-width: 50%;
 }
 
 p {
