@@ -118,8 +118,8 @@ div {
     text-shadow: 0 0 20px #fff;
     position: absolute;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
    
   }
 #intro:before {
