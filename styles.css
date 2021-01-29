@@ -116,7 +116,7 @@ div {
     /*left: 1%;
     right: 1%;*/
     text-shadow: 0 0 20px #fff;
-    /*position: absolute;*/
+    position: absolute;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
