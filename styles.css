@@ -112,6 +112,7 @@ div {
 
  #intro {
     padding: 1.5em 0;
+    max-width: 50%;
     text-shadow: 0 0 20px #fff;
     position: absolute;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
