@@ -85,7 +85,7 @@ a {
 
 /* Main content */
 #content, .container {
-    max-width: 580px;
+    max-width: 700px;
     max-height: 3000px;
     margin-left: auto;
     margin-right: auto;
