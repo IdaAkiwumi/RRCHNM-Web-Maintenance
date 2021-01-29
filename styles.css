@@ -4,6 +4,9 @@ html {
     line-height: 24px;
     }
 
+    * {
+    box-sizing: border-box;
+}
 
 /*Header styling*/
 header {
@@ -46,26 +49,18 @@ header {
 a {
     background-color: transparent;
 }
+
+/* Keeps items within box in tact*/
 * {
     box-sizing: border-box;
 }
 
-/*h1 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 48px;
-    margin: 0 0 0 -0.1875em;
-    color: #3673A2;
-    background-color: #fff;
-    padding: 0.1875em;
-    padding-top: 0.1875em;
-    padding-right: 0.1875em;
-    padding-bottom: 0.1875em;
-    padding-left: 0.1875em;
-    display: inline-block;
-    text-shadow: none;
-}*/
+
+body {
+    position: relative;
+    padding-top: 0;
+}
+
 
 h1 {
     font-family: "Oswald", sans-serif;
@@ -73,14 +68,10 @@ h1 {
     font-size: 32px;
     line-height: 48px;
     color: #3774a2;
+    min-width: 500px;
 }
 
-p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: #656565;
-}
+
 
 a {
     font-family: "Open Sans", sans-serif;
@@ -90,43 +81,52 @@ a {
     text-decoration: none;
 }
 
-/* Roy image */
-
-
+/* Main content */
 #content, .container {
     max-width: 1280px;
     max-height: 3000px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
     padding: 1.5em;
     padding-top: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
     padding-left: 1.5em;
+ 
 }
 
+div {
+    display: block;
+}
+
+
+/* Roy image */
 #intro:before {
     background-image: url(https://rrchnm.org/wordpress/wp-content/uploads/2016/03/roy-bg-1-1024x236.png);
-
+    opacity: .25;
+    min-width: 40em;
+  
 }
 
  #intro {
     padding: 1.5em 0;
     text-shadow: 0 0 20px #fff;
-    position: relative;
+    position: absolute;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    left:20em;
+    right:20em;
   }
 #intro:before {
     content: "";
-    background-size: cover;
-    background-position: center;
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
+    background-position: bottom right; 
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    opacity: .25;
-    background-color: #000;
   }
 
 #intro .container > * {
@@ -142,12 +142,27 @@ a {
 
 
 /* Content styling*/
-/*
+
 p, ul {
     margin: 1.5em 0;
+    min-width: 20em;
 }
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656565;
+}
+/* Keeps text within box in tact*/
 * {
     box-sizing: border-box;
 }
-*/
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
