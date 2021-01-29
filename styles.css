@@ -122,7 +122,7 @@ div {
     background-size: 1200px auto;
     background-repeat: no-repeat;
     background-position: bottom right; 
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
