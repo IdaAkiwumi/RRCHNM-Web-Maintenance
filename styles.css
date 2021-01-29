@@ -126,7 +126,7 @@ div {
     background-size: 1200px contain;
     background-repeat: no-repeat;
     background-position: bottom right; 
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     bottom: 0;
     right: 0;
