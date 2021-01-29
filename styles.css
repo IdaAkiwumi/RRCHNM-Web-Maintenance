@@ -114,10 +114,10 @@ div {
     text-shadow: 0 0 20px #fff;
     position: absolute;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    left: 20%;
+    left: 1%;
     display: flex;
     flex-direction: column;
-    right: 20%;
+    right: 1%;
   }
 #intro:before {
     content: "";
