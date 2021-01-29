@@ -68,7 +68,7 @@ h1 {
     font-size: 32px;
     line-height: 48px;
     color: #3774a2;
-    min-width: 50%;
+    min-width: 80%;
 }
 
 
@@ -147,7 +147,7 @@ div {
 
 p, ul {
     margin: 1.5em 0;
-    min-width: 50%;
+    min-width: 80%;
 }
 
 p {
