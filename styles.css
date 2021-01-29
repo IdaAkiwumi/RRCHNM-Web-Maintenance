@@ -125,6 +125,7 @@ div {
     background-repeat: no-repeat;
     /*background-position: bottom right; */
      background-position: 85% 75%; 
+      background-position: bottom right; 
     background-position-x: initial;
     background-position-y: initial;
     position: absolute;
