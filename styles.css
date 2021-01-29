@@ -118,7 +118,7 @@ div {
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     left: 20%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     right: 20%;
   }
 #intro:before {
