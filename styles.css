@@ -121,7 +121,7 @@ div {
   }
 #intro:before {
     content: "";
-    background-size: 40%;
+    background-size: 98%;
     background-repeat: no-repeat;
     background-position: bottom right; 
     position: absolute;
